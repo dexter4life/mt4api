@@ -1,51 +1,50 @@
 # mt4api
-简介
+Introduction
 
-	       mt4api接口，是用于直接连接mt4服务器,获取实时行情报价,交易执行,以及历史行情和历史订单的查询等功能的dll接口，
-	适合开发行情展示或者订单管理，交易策略等，如果可以，你甚至可以用他开发一个mt4客户端！
-	该api比使用mt4终端进行报价和交易要快得多;提供实时开仓、平仓等多种功能。
+The mt4api interface is a dll interface used to directly connect to the mt4 server, obtain real-time market quotes, trade execution, and query historical market and historical orders.
+It is suitable for developing market display or order management, trading strategy, etc. If you can, you can even use it to develop a mt4 client!
+The api is much faster than using the mt4 terminal for quotation and trading; it provides multiple functions such as real-time opening and closing.
 
-功能特点
+Features
 
-	实时报价：提供直连mt4服务器获取证券信息，并订阅希望关注的的证券代码，获取实时报价行情！
-	历史行情：获取指定时间段内的证券历史报价行情，分析历史走势，制定合理的交易策略。
-	交易处理：直连mt4服务器进行交易处理，不需要mt4终端客户端，响应更快更及时！
-	订单反馈：实时的平仓，开仓信息反馈！让你对订单变化一目了然！
-	历史订单：获取历史订单，用于分析历史交易盈亏，绘制报表等。
-	实时盈亏：提供账户的实时资金信息和盈亏状态，做好风控处理！
+Real-time quotation: Provide direct connection to mt4 server to obtain securities information, and subscribe to the securities code you want to follow to obtain real-time quotations!
+Historical quotations: Obtain historical quotations of securities within a specified time period, analyze historical trends, and formulate reasonable trading strategies.
+Transaction processing: Directly connect to the mt4 server for transaction processing, no mt4 terminal client is required, and the response is faster and more timely!
+Order feedback: real-time closing and opening information feedback! Let you know the order changes at a glance!
+Historical orders: Get historical orders, used to analyze historical trading profit and loss, draw reports, etc.
+Real-time profit and loss: Provide real-time fund information and profit and loss status of the account, and do a good job of risk control!
 
-适用场景
+Applicable scene
 
-	交易平台
-	算法平台
-	套利系统
-	风控系统
-	信号系统
-	竞赛程序
-	多账户管理系统
-	性能&统计
-	二进制插件
+Trading platform
+Algorithm platform
+Arbitrage System
+Risk control system
+	signal system
+Contest procedure
+Multi-account management system
+Performance & Statistics
+Binary plugin
 
-开发包文件夹说明
+Development kit folder description
 
-	api - api相关dll,lib和头文件
-	doc - api使用说明文档
-	demo - api的demo测试程序
-	tools- srv文件读取助手和license生成助手等工具软件
+api-api related dll, lib and header files
+doc-api instruction document
+demo-api demo test program
+tools- srv file reading assistant and license generation assistant and other tool software
 
-付费说明
+Payment instructions
 
-	       api接口的使用需要license授权文件，在开发周期内，你可以通过license生成助手申请测试license进行测试。
-	       测试license有7天的有效期.正式用户请选择生成按月付费或者永久有效的license. 可以通过微信或支付宝直接支付
-	       或者联系我们！
+The use of the api interface requires a license authorization file. During the development cycle, you can apply for a test license through the license generation assistant for testing.
+The test license has a 7-day validity period. For formal users, please choose to generate a monthly or permanent license. You can pay directly through WeChat or Alipay
+Or contact us!
 
-	       我们提供有诚意、有竞争力的价格！为节省您宝贵的时间，也让工程师、客服人员把时间和精力聚焦于更好的产品改进和用户体验，
-	       谢绝议价！我们不对任何议价予以回复，感谢理解支持！
+We provide sincere and competitive prices! In order to save your precious time, let engineers and customer service personnel focus their time and energy on better product improvement and user experience,
+No bargaining! We do not respond to any negotiation, thank you for your understanding and support!
 
-联系我们	
-	在使用api接口或者相关工具过程中，有任何疑问请联系我们！
+contact us	
+In the process of using the api interface or related tools, please contact us if you have any questions!
 
-	外汇MT4技术交流QQ群：712830563
-	邮箱: support@gzhuichou.com
-	官网: http://mt4api.gzhuichou.com/
-	
+Forex MT4 technical exchange QQ group: 712830563
+Email: support@gzhuichou.com
+Official website: http://mt4api.gzhuichou.com/
